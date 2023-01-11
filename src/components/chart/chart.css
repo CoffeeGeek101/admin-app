@@ -1,0 +1,21 @@
+.chart{
+    margin-left: 85px;
+    margin-right: 60px;
+    padding: 30px 40px;
+    -webkit-box-shadow: 10px 14px 39px -27px rgba(33,87,41,1);
+    border-radius: 30px;
+    background-image: linear-gradient(130deg, white, rgb(3, 218, 229));
+}
+.dot{
+    font-size: 34px;
+    color: #005279;
+}
+.chart:hover{
+    cursor: pointer;
+}
+.title{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #224438;
+}

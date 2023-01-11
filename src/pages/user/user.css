@@ -1,0 +1,167 @@
+.profile{
+    flex: 4;
+    padding: 40px;
+    overflow: hidden;
+    position: relative;
+}
+.user-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.create-user{
+    padding: 13px 18px;
+    background-color: #00aeff;
+    border-style: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.39);
+}
+
+.create-user:hover{
+    cursor: pointer;
+}
+
+.user-container{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.user-dp{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    /* padding: 10px; */
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.39);
+}
+.user-name{
+    text-align: center;
+    margin-top: 10px;
+}
+.user-role{
+    color: grey;
+    font-family: monospace;
+    /* margin-left: 5px; */
+    text-align: center;
+}
+
+.card-details{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.card-font{
+    color:rgb(0, 0, 0);
+    font-size: 13px;
+}
+
+.user-card{
+    /* border: solid 1px; */
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 30px;
+    box-shadow: 7px 23px 53px -26px rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(130deg, white, rgb(30, 229, 255));
+}
+.change-photo{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 23px;
+    top: 160px;
+    box-shadow: -1px 1px 11px #fff;
+    color: #014767;
+}
+
+.change-photo:hover{
+    cursor: pointer;
+    transform: rotate(10deg);
+}
+
+.user-logo{
+    color: #014767;
+}
+
+.form-main{
+    display: flex;
+    gap: 25px;
+}
+
+.user-edit{
+    background-image: linear-gradient(130deg, white, rgb(3, 218, 229));
+    min-height: 600px;
+    min-width: 500px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.39);
+}
+
+.user-edit:hover{
+    background-image: linear-gradient(130deg, white, rgb(51, 0, 255));
+    color: #fff;
+}
+
+.edit-title{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.form-item{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label{
+letter-spacing: 2px;  
+font-weight: 300;  
+}
+
+.form-item-child{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: -1px 3px 16px -1px rgba(255,255,255,1);
+}
+
+.update-btn{
+    padding: 0px 10px;
+    margin: 30px 1px;
+    min-width: 250px;
+    min-height: 45px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgba(17, 0, 252, 0.66);
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 2px 3px 54px 0px rgb(0, 51, 255);
+}
+
+.update-btn:hover{
+    background-color: rgba(26, 255, 0, 0.791);
+    color: #fff;
+    box-shadow: 2px 3px 54px 0px rgb(0, 255, 68);
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 10px;
+    position: absolute;
+    top: 710px;
+    text-align: center;
+    font-weight: 100;
+}

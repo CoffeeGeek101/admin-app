@@ -1,0 +1,55 @@
+.ft-conatiner{
+    padding: 50px 50px;
+}
+
+.ft-compare{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.com-ele{
+    -webkit-box-shadow: 6px 17px 18px -12px rgba(177, 177, 177, 0.9);
+    box-shadow: 6px 17px 18px -12px rgba(151, 151, 151, 0.9);
+    padding: 60px;
+    border-radius: 30px;
+    background-image: linear-gradient(120deg, white, rgb(3, 218, 229));
+    color: #005279;
+}
+
+.com-stat{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.com-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.com-first{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.icon-a{
+    color: red;
+    font-size: 20px !important;
+}
+.positive{
+    color: green;
+    font-size: 20px !important;
+}
+
+.com-des{
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.com-ele:hover{
+   background-image: linear-gradient(130deg, white, rgb(3, 218, 229));
+    color: black;
+    cursor: pointer;
+    margin-top: 1px;
+}

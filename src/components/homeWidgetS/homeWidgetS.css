@@ -1,0 +1,74 @@
+.smallW{
+    /* flex: ; */
+    background-image: linear-gradient(130deg, white, rgb(3, 218, 229));
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 14px 49px -27px rgba(33,87,41,1);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title{
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+.avi{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.role{
+    font-size: 12px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.btn{
+    background-color: #fff;
+    border-radius: 20px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    gap : 7px;
+    padding: 10px;
+    box-shadow: 1px 2px 5px rgb(2, 79, 19);
+    color: #014d17;
+    font-weight: 500;
+}
+
+.btn:hover{
+    cursor: pointer;
+    margin-bottom:1px ;
+}
+
+.eye{
+    font-size: 10px !important;
+}
+
+.w-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 15px;
+}
+
+.w-container:hover{
+    background-color: #b5fbfa;
+    border-radius: 20px;
+    cursor : pointer;
+}

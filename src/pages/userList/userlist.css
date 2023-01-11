@@ -1,0 +1,33 @@
+.userlist{
+    flex: 4;
+    padding: 100px;
+    margin-bottom: 40px;
+}
+
+.user-title{
+    margin-bottom: 20px;
+    color: #003514;
+}
+
+.del-btn{
+    padding: 10px;
+    font-weight: 500;
+    color: rgb(0, 92, 8);
+    background-color: rgb(201, 255, 211);
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: -2px 2px 2px rgb(200, 200, 200);
+    margin-left: 10px;
+}
+
+.del-sign{
+    margin-left: 10px;
+    color: rgb(198, 0, 0) !important;
+}
+
+.del-btn:hover{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+

@@ -1,0 +1,75 @@
+.largeW{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background-image: linear-gradient(130deg, white, rgb(3, 218, 229));
+    padding: 10px 20px;
+    border-radius: 40px;
+    -webkit-box-shadow: 10px 14px 49px -27px rgba(33,87,41,1);
+}
+
+.title{
+    margin-bottom: 10px;
+}
+.tran-img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.tran-des{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.tran-name{
+    font-weight: 500;
+}
+.upi-id{
+    font-size: 12px;
+    color: gray;
+}
+.sign{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.amt{
+    font-weight: 500;
+
+}
+.date{
+    font-size: 13px;
+    color: gray;
+}
+
+.wid-btnApproved{
+    color: green;
+    padding: 8px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgb(2, 79, 19);
+    font-weight: 500;
+}
+
+.wid-btnApproved:hover{
+    cursor: pointer;
+    margin-bottom: 1px;
+}
+
+.tran-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.tran-container:hover{
+    background-color: #b5fbfa;
+    border-radius: 20px;
+    cursor: pointer;
+}
